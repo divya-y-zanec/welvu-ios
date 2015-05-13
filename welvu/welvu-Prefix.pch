@@ -1,0 +1,37 @@
+//
+// Prefix header for all source files of the 'welvu' target in the 'welvu' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+   #import "welvuAppDelegate.h"
+#import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
+#import "GAITrackedViewController.h"
+#import "GAITracker.h"
+#import "GAILogger.h"
+
+#endif
+
+#define INTERFACE_IS_PAD     ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define INTERFACE_IS_PHONE   ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+#define CLIENT_ID @"972969617574.apps.googleusercontent.com"
+#define CLIENT_SECRET @"khSSG7d5YiU-GkiqAOgmj3dg"
+#define DEV_KEY @"AI39si4MdqGq6zQ_1el1hozJMBgjw4Trx70Wx52P-N3pqhbyxUdJLQOmnWUYDSQEXT7AN2pnIUGIvCnqmvDRWHmpttMWA4Xw7g"
+
+/*
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+*/
+

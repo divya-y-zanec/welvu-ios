@@ -1,0 +1,339 @@
+
+/*
+ Localizable.strings
+ welvu
+ 
+ Created by Logesh Kumaraguru on 26/09/12.
+ Copyright (c) 2012 ZANEC Soft Tech. All rights reserved.
+ */
+//BUNDLE IDENTIFIER
+//Error Message
+
+//Login
+"ALERT_REGISTRATION_ERROR_USERNAME_MSG" = "Enter valid Email Address";
+"ALERT_REGISTRATION_ERROR_PASSWORD_MSG" = "Password cannot be empty";
+"PLEASE_WAIT_SPINNER_MSG" = "Please wait requesting to server";
+
+
+//Registration
+"ALERT_REGISTRATION_ERROR_NAME_MSG" = "Name cannot be empty";
+"ALERT_REGISTRATION_ERROR_ORGANIZATION" = "Enter valid Organization";
+"ALERT_REGISTRATION_ERROR_EMAIL_MSG" = "Enter valid Email Address";
+"ALERT_REGISTRATION_ERROR_PHONE" = "Enter valid Phone Number";
+"ALERT_REGISTRATION_ERROR_PASSWORD_MSG" = "Password cannot be empty";
+"ALERT_REGISTRATION_ERROR_CONFIRM_PASSWORD_NOTVALID_MSG" = "Your password and confirmation password do not match";
+"ALERT_REGISTRATION_SUCCESSFUL_MSG" = "Thank you for registering with WelVU account. To activate your account, please click the link in the activation email which has been sent to you";
+
+
+
+//Subcription Ended
+"LICENCE_EXPIRED1" = " Please Login";
+"CONNECT_INTERNET_UPDATE_SUBSCRIPTION" = "Please connect to internet to update your License";
+
+
+//Download Specialty
+"ALERT_SPECIALTY_REQUIRES_DOWNLOAD" = "This Specialty requires to be downloaded";
+"ALERT_SPECIALTY_TOPIC_DOWNLOAD_ERROR" = "Download failed. Please try again";
+"PLEASE_WAIT_DOWNLOADING_SPINNER_MSG" = "Please wait, downloading your Visual Units™";
+
+//Sync Icon
+"SYNC_SPECIALTY_SPINNER_MSG" = "Syncing Specialty please wait";
+
+//Switch Account
+"ALERT_SWITCH_WELVU_CONFIRMATION_MSG" = "Are you switch to WelVU?";
+"ALERT_SWITCH_ACCOUNT_UNDER_PROGRESS" = "Please wait, your contents are being saved in our secure server before you Switch Account.";
+"ALERT_SWITCH_ACCOUNT_UNDER_PROGRESS_NO_INTERNET" = "Please ensure you have an active internet connection before you Switch Account.";
+
+//Topic
+"ALERT_NO_CONTENT_ADDED_TITLE" = "No content added";
+"ALERT_NO_CONTENT_ADDED_MSG" = "Please add content to create a new topic";
+
+//Save Topic
+"ALERT_SAVE_NEW_TOPIC_MSG" = "Enter the name for the Patient VU contents to be saved as a new topic";
+"PROCESSING_SPINNER_MSG" = "Processing please wait";
+"ALERT_TOPIC_CONTENT_SAVE_TITLE" = "%@ topic is saved";
+
+//Delete Topic
+"ALERT_TOPIC_VU_ARCHIVE_DELETE_MSG" = "Archive/Delete image from Topic VU?";
+"ALERT_DELETE_TOPIC_SPECIALTY_VU_MSG" = "Are you sure you want to delete the topic %@?";
+
+
+//Annotation Content
+
+"ALERT_EDIT_ANNOTATE_NOT_SAVED_TITLE" = "Annotation not saved";
+"ALERT_EDIT_ANNOTATE_NOT_SAVED_MSG" = "Current annotation is not saved. Do you wish to continue without saving?";
+"ALERT_EDIT_NO_MODIFICATION_TITLE" = "Content VU not Modified";
+"ALERT_EDIT_NO_MODIFICATION_MSG" = "There are no changes in Content VU to save";
+"ALERT_EDIT_ANNOTATE_SAVED_MSG" = "Annotated content has been saved to the TopicVU";
+
+//PatientVU
+"ALERT_NO_CONTENT_ADDED_TO_CREATE_VU_MSG" = "Please add content to Create a new VU";
+"ALERT_NO_CONTENT_SELECTED_TITLE" = "No Content Added";
+"ALERT_DID_ENTER_BACKGROUND_ON_VIDEO_REC_HEADER" = "Recording";
+
+//ShareVU
+"ALERT_VERIFY_EMAIL_ADDRESS"="You will not be able to share videos until you verify your email address. Would you like us to resend the verification Email?";
+
+"CONFIRM_EMAIL"="Confirmation Email";
+"SUCCESSFULLY_SENT"="Successfully sent";
+
+//Share Completed PatientVU via
+"ALERT_DEFAULT_MAIL_TITLE" = "Default Email";
+"ALERT_DEFAULT_MAIL_MSG"  = "To share future emails with HIPAA-compliant email please go to \"Settings\/Email\" and choose \"HIPPA-complaint\"";
+//Share Completed PatientVU via
+"ALERT_HIPAA_INFO_TITLE" = "HIPAA-Compliant Email";
+"ALERT_HIPPA_INFO_MSG" = "To share future emails with \n default email please go to \"Settings/Email\" and choose  \n \"Default\"";
+"ALERT_PUSHING_TO_IPX" = "HIPAA-Compliant Email";
+
+
+//iPx
+"PLEASE_WAIT_DOWNLOADING_IPX_VIDEOS" = "Please wait, downloading your iPx Videos";
+"ALERT_IPX_TITLE" = "Save video as iPx";
+"ALERT_SAVE_IPX_PLATFORM"="Your iPx video is being processed. It will be available under your iPx menu in a few minutes";
+
+"ALERT_SHARE_IPX_VIDEO_TO_TEAM"="Would you like to share your iPx Video with your Team ?";
+
+
+
+//Welvu main settings constants text
+//Setting Master Header
+"SETTINGS_HEADER" = "Settings";
+"SETTINGS_TOPIC_SORT_HEADER" = "Topic VU List Order";
+"SETTINGS_LAYOUT_HEADER" = "Layout";
+"SETTINGS_VIDEO_HEADER" = " Audio and Video";
+"SETTINGS_EMAIL_HEADER" = "Share VU";
+"SETTINGS_BLANK_CANVAS_COLOR_HEADER" = "Blank Canvas Color";
+"SETTINGS_SPECIALTY_HEADER" = "Animated Assitance";
+"SETTINGS_ORGANIZATION_CHANGE" = "Switch Organization";
+"SETTINGS_THEME_CHANGE" = "Theme";
+"SETTINGS_VITAL_STATISTICS_CHANGE" = "Measurement Units";
+"SETTINGS_VIDEO_RESOLUTION_CHANGE" = "Video Resolution";
+"SETTINGS_SHARE_VU_DEFAULT" = "Default Email";
+"SETTINGS_SHARE_VU_SECURED" = "HIPAA-Compliant Email";
+
+//Settings Text
+//Topic
+"CONTENT_ALBHABITICAL_ORDER_TEXT" = "Alphabetical";
+"CONTENT_MOST_POPULAR_ORDER_TEXT" = "Most Popular";
+"CONTENT_MOST_DEFAULT_ORDER_TEXT" = "Default";
+
+//Layout
+"CONTENT_GUIDE_ANIMATION"="Guide";
+"CONTENT_LAYOUT_TEXT" = "Spacing";
+"CONTENT_SORTING_TEXT" = "Style";
+"CONTENT_GRID_LAYOUT_TEXT" = "Thumbnail Size";
+"CONTENT_BACKGROUND_TEXT" = "Layout Background";
+
+
+//Settings Header OLD discard it
+"CONTENT_VU_SETTINGS_HEADER" = "Topic VU & Patient VU Grid Settings";
+"CONTENT_LAYOUT_HEADER" = "Layout";
+"CONTENT_SORTING_HEADER" = "Sorting";
+"CONTENT_BACKGROUND_HEADER" = "Background";
+
+//Email
+"SETTINGS_SHARE_VU_HEADER" = "Share VU";
+
+
+//Setting colors
+"CANVAS_COLOR_BLACK" = "Black";
+"CANVAS_COLOR_WHITE" = "White";
+"CANVAS_COLOR_GREEN" = "Green";
+
+//settinfs theme change
+//Theme
+"CONTENT_SHOW_THEME1" = "Medtronic";
+"CONTENT_SHOW_THEME2" = "Kaiser Permanente";
+"CONTENT_SHOW_THEME3" = "WelVU";
+"CONTENT_SHOW_THEME4" = "Lwala";
+
+//Video Resolution
+"SETTINGS_VIDEO_RESOLUTION_SMALL" = "640 * 360";
+"SETTINGS_VIDEO_RESOLUTION_MEDIUM" = "960 * 540";
+"SETTINGS_VIDEO_RESOLUTION_LARGE" = "1920 * 1080";
+
+
+
+//Settings Text
+"ALERT_SWITCH_WELVU_CONFIRMATION_MSG" = "Are you switch to WelVU?";
+"ALERT_SWITCH_ACCOUNT_UNDER_PROGRESS_NO_INTERNET" = "Please ensure you have an active internet connection before you Switch Account.";
+
+"SUBCRIPTION_ENDED" = "License Expired";
+"PLEASE_CONTACT_YOUR_ADMIN" = "This  specialty license has been expired, please contact your %@ admin for renewal";
+
+//"LICENCE_EXPIRED1" = "Your licence has been expired, please contact your";
+
+//"LICENCE_EXPIRED1" = " Your licence has been expired, please contact your %@";
+
+
+
+//Alerts
+//Welvu Registration
+"ALERT_REGISTRATION_TITLE" = "Registration";
+//"ALERT_REGISTRATION_SUCCESSFUL_MSG" = "A confirmation has been sent to your email address. Please click on the confirmation link in the email to activate your account.";
+
+//Welvu Alert
+"ALERT_ARCHIVE_TOPIC_SPECIALTY_VU_TITLE" = "Specialty VU";
+
+"ALERT_SPECIALTY_REQUIRES_DEMO_DOWNLOAD" = "Only limited Specialty content will be downloaded";
+"ALERT_ARCHIVE_TOPIC_SPECIALTY_VU_MSG" = "Archive %@ topic?";
+"ALERT_PURCHASE_SPECIALTY_TITLE" = "CONFIRM SUBSCRIPTION";
+"ALERT_PURCHASE_SPECIALTY_MSG1" = "Would you like to subscribe to ";
+"ALERT_PURCHASE_SPECIALTY_MSG2" = " Specialty";
+"ALERT_LOAD_TOPIC_WHEN_IMAGE_FULLSCREEN_TITLE" = "Please minimize the image content before choosing another topic";
+"ALERT_TOPIC_VU_TITLE" = "Topic VU";
+"ALERT_IPX_VU_TITLE" = "iPx VU";
+
+"ALERT_IPX_VU_ARCHIVE_DELETE_MSG" = "Archive/Delete videos from iPx VU?";
+"ALERT_PATIENT_VU_TITLE" = "Patient VU";
+"ALERT_TOPIC_VU_ARCHIVE_MSG" = "Archive image from Topic VU?";
+"ALERT_TOPIC_VU_ARCHIVE_DELETE_MSG" = "Archive/Delete image from Topic VU?";
+"ALERT_PATIENT_VU_DELETE_MSG" = "Delete image from Patient VU?";
+"ALERT_LOAD_TOPICVU_TO_PATIENTVU_TITLE"  = "Are you sure to navigate?";
+"ALERT_LOAD_TOPICVU_TO_PATIENTVU_MSG" = "PatientVU has contents. Changing topic now will clear PatientVU contents?";
+"ALERT_NO_CONTENT_SELECTED_MSG" = "Use entire content deck to make Video?";
+"ALERT_SAVE_NEW_TOPIC_TITLE" = "Save as new Topic";
+"ALERT_EDIT_ANNOTATE_NOT_SAVED_CLOSE_MSG" = "Current annotation is not saved. Do you wish to close without saving?";
+"ALERT_EDIT_ANNOTATE_SAVED_TITLE" = "Annotation Saved";
+"ALERT_NO_TOPIC_SELECTED_MSG" = "select topic(s) to revive";
+//"ALERT_USER_ACCOUNT_NOT_ACTIVATED" = "select topic(s) to revive";
+"ALERT_GESTURE_LIMITATION_TITLE"  = "Are you sure you want to activate “Gestures”?";
+"ALERT_GESTURE_LIMITATION_MSG"  = "Turning on gestures will remove annotations made from the contents";
+"ALERT_SHARE_PLAY_TITLE" = "Do you want to?";
+"ALERT_PHI_VIDEO_TITLE" = "Does this video content contain Protected Health Information?";
+"ALERT_SAVE_SENDEMAIL_TITLE" = "Do you want to Save/Send this video?";
+"ALERT_SHAREVU_ERROR_TITLE" = "Alert";
+"ALERT_SHAREVU_PLEASE_ENTER_MSG" = "Please enter a valid ";
+"ALERT_SHAREVU_AND_MSG" = " & ";
+"ALERT_SHAREVU_ERROR_RECIPIENTS_MSG" = "Email";
+"ALERT_SHAREVU_ERROR_SUBJECT_MSG" = "Subject";
+"ALERT_SHAREVU_FREE_SUBSCRIPTION_OVER_MSG" = "You have reached the limit of 10 free email shares. Please subscribe to continue sharing customized patient engagement content via via WelVU.";
+"ALERT_YOUTUBE_ERROR_TITLE_MSG" = "Title";
+"ALERT_ERROR_COMMA_MSG" = ", ";
+"ALERT_ERROR_PLEASE_ENTER_MSG" = "Please enter a valid \n";
+"ALERT_REGISTRATION_ERROR_NAME_MSG" = "Name cannot be empty";
+"ALERT_REGISTRATION_ERROR_SPECIALTY_MSG" = "Select a Specialty";
+"ALERT_REGISTRATION_ERROR_USERNAME_MSG" = "Enter valid Email Address";
+
+
+//"ALERT_REGISTRATION_ERROR_CONFIRM_PASSWORD_MSG" = "Password confirmation cannot be empty";
+//"ALERT_REGISTRATION_ERROR_CONFIRM_PASSWORD_NOTVALID_MSG" = "Passwords do not match";
+"ALERT_REGISTRATION_ERROR_LENGHT_PHONE_NUMBER_MSG" = "Passwords should be at least eight characters";
+"ALERT_REGISTRATION_ERROR_LENGHT_PASSWORD_MSG" = "Passwords should be at least eight characters";
+"ALERT_REGISTRATION_ERROR_CONFIRM_PASSWORD_MSG" = "Confirmation Password cannot be empty";
+"ALERT_REGISTRATION_ERROR_MAX_LENGHT_PASSWORD_MSG" = "Passwords should not be more than sixteen characters";
+
+"ALERT_REGISTRATION_ERROR_LENGHT_CONFORM_PASSWORD_MSG" = " Confirmation Password can be eight letter above";
+"ALERT_SPECIALTY_TOPIC_DOWNLOAD_ERROR_FIREWALL" = "Download failed. Please configure your firewall for downloading compressed files and try again";
+
+"ALERT_DID_ENTER_BACKGROUND_ON_VIDEO_REC_TITLE" = "Recording suspended";
+"ALERT_STATUS_HEADER" = "Status:";
+"ALERT_NO_INTERNET_CONNECTIVITY_MSG" = "Please check your internet connection to send mail.";
+"ALERT_NO_INTERNET_CONNECTIVITY_NORMAL_MSG" = "Please check your internet connection";
+"ALERT_PURCHASE_FAILED_MSG" = "Purchase failed. Please try after sometime or contact us";
+"ALERT_NO_INTERNET_CONNECTIVITY_SENDING_EMAIL" = "Video is successfully created. Please switch on Internet connection to share it.";
+"ALERT_SHARE_UNDER_PROGRESS" = "Please wait, your contents are being saved in our secure server before you Logout.";
+"ALERT_SHARE_UNDER_PROGRESS_NO_INTERNET" = "Please ensure you have an active internet connection before you Logout.";
+"ALERT_SHARE_UNDER_PROGRESS_NO_INTERNET_EBOLA" = "Logging out in offline mode will loose all unsynchronized topics and unsent videos in your device. Do you want to Continue?";
+"ALERT_SHARE_UNDER_PROGRESS_NO_INTERNET_SWITCH_ORG" = "Please ensure you have an active internet connection before you switch Organization";
+"ALERT_LOGOUT_CONFIRMATION_MSG" = "Are you sure you want to Logout?";
+"ALERT_SWITCH_WELVU_CONFIRMATION_MSG" = "Are you sure, you want to switch Organization?";
+"ALERT_ALBUM_PROVIDE_ACCESS_HEADER" = "Access required";
+"ALERT_ALBUM_PROVIDE_ACCESS_MESSAGE" = "To provide access please go to Settings --> Privacy --> Photos --> Welvu and select ON to choose images from album";
+"ALERT_MEMORY_ALERT_WARNING_HEADER" = "Memory Warning";
+"ALERT_MEMORY_ALERT_WARNING_TITLE" = "Your content size has become large. Please remove some contents from PatientVU";
+
+//Alert Button
+"CONFIRM" = "Confirm";
+"CLOSE" = "Close";
+"CANCEL" = "Cancel";
+"NO" = "No";
+"DONT_SHOW_AGAIN" = "Don't show again";
+
+"DOWNLOAD_NOW" = "Download";
+"ARCHIVE" = "Archive";
+"DELETE" = "Delete";
+
+"CONTINUE" = "Continue";
+"OK" = "Ok";
+"YES" = "Yes";
+
+"SHARE" = "Share";
+"PLAY" = "Play";
+"SAVE" = "Save";
+"SEND_EMAIL" = "Send Email";
+"NOT_YET" = "Not Yet";
+"PURCHASE" = "Purchase";
+"PURCHASE_MONTHLY" = "Monthly Subscription";
+"PURCHASE_YEARLY" = "Yearly Subscription";
+"DONE" = "Done";
+
+//Bar button name
+"BACK" = "Back";
+
+//Controls
+"SWAP" = "Swap";
+"PUSH" = "Push";
+"SMALL" = "Small";
+"LARGE" = "Large";
+
+//Help Message
+"EDIT_HELP_MESSAGE" = "Please select an image to annotate";
+
+//Textfield Place holder
+"PLACEHOLDER_ENTER_TOPIC_NAME" = "Please enter a Topic name";
+
+//Share mail confidential msg
+"SHARE_MAIL_CONFIDENTIAL_MSG_BODY" = "\n\nThis email (including any attachments) is intended for the named recipient(s) only. It is confidential and may be subject to legal or other professional privilege. Any confidentiality or privilege is not waived or lost because this email has been sent to you by mistake. If you have received this email in error, please notify the sender immediately, delete it from your system and destroy any copies. This email is also subject to copyright. No part of it should be reproduced, adapted or communicated without the prior written consent of the owner. Emails may contain computer viruses or other defects, may be interfered with and may be delayed or interrupted. We give no warranties and do not accept any liability for any loss or damage in relation to these matters. Any views expressed are those of the individual sender only and cannot be considered as final medical advise.";
+//Spinner message
+"SYNC_SPECIALTY_SPINNER_MSG" = "Syncing Specialty please wait";
+"SYNC_ORGANIZATION_SPINNER_MSG" = "Syncing Organization please wait...";
+
+"PLEASE_WAIT_SPINNER_MSG" = "Please wait requesting to server";
+"PLEASE_WAIT_SPINNER_ORG_MSG" = "Please wait while we are fetching data from the server ";
+"SYNC_CONTENT_PROSESSING_TEXT" = "Synchronizing please wait...";
+
+//SHAREVU MESSAGE
+
+
+"ALERT_RESEND_VERIFY_EMAIL"="Resend Verification Email";
+
+//EMR
+"EMR_PLEASE_WAIT_DOWNLOADING_SPINNER_MSG"= "Please wait while we retrieve data from the EMR ...";
+"ALERT_PUSHING_TO_EMR" = "Sending VU to Patient";
+"ALERT_CANT_DISPLAY_GRAPH" = "Can not display the patient vitals graph";
+"ALERT_NO_VITAL_RECORDS_FOUND" = "No vitals records are found";
+
+//IPX
+
+"ALERT_IPX_TITLE" = "Save video as iPx";
+"ALERT_PUSHING_IPX_TO_TEAM" = "Share iPx Video";
+"ALERT_SHARE_IPX_VIDEO_TO_VU_LIBRARY"="Do you want to share your iPx video to VU Library ?";
+"PLACEHOLDER_ENTER_TAG_NAME" = "Please enter the keywords";
+//InterSystem
+
+//HEV
+"ALERT_SAVE_VIDEO_TO_PHOTO_ALBUM" = "Please confirm that this video contains no Personal Health Information before saving it to your iPad";
+
+//Pull To Refresh
+"PULL_TO_REFRESH" = "Pull To Refresh...";
+"RELEASE_TO_REFRESH" = "Release To Refresh...";
+"LOADING" = "Loading...";
+
+
+//Box Alerts
+"BOX_ALLOWED_CONTENT_TYPE_MESSAGE" = "Please add only the allowed media types to PreVU.\n Allowed media types are 'JPEG', 'PNG', 'GIF', 'MP4' and 'MOV'";
+"PATIENT_CHART" = "Patient Chart";
+"MAP_VIEW" = "Map";
+"CONNECT_SERVER_ISSUE" = "Unable to reach WelVU server. Please check Internet";
+"CHECK_THE_LOCATION_LINK" = "Select the below shared link to view the location \n";
+//Map
+"MAP_ALERT" = "Map";
+"LOCATION_NOT_FOUND" = "Sorry, Cannot find entered location";
+"UPGRADE_TITLE" = "Would you like to upgrade to WelVU Plus?";
+"UPGRADE" = "Upgrade";
+"GOTOWELVU" = "Go to WelVU ";
+//specilaty
+"ALERT_ALL_SPECIALTY_LOCKED_ORG" = "Your license has been expired.Please contact your %@ admin for renewal ";
+
+
